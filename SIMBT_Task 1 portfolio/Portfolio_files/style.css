@@ -1,0 +1,226 @@
+*{
+    padding: 0; 
+    margin: 0;
+}
+
+
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    
+}
+.leftnav{
+    padding: 10px 90px;
+    font-size: 30px;
+}
+.leftnav span{
+    color: red;
+}
+.rightnav ul{
+    padding-top: 10px;
+}
+
+.rightnav ul li{
+    display: inline;
+    margin-left:  20px;
+    margin-right: 20px;
+    padding: 3px 6px;
+    
+
+}
+.rightnav ul li:hover{
+    background-color: white;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    background-color:#000;
+    color: aliceblue;
+    
+}
+.upright img{
+    height: 70vh;
+    border-radius: 500px;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.upleft{
+   padding-top: 130px;
+   width: 60vw;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    
+
+}
+.upright{
+    width: 40vw;
+}
+
+.upleft h1 span{
+    color: red;
+}
+.upleft input{
+    width: 30vw;
+    height: 4vh;
+    border-radius: 10px;
+    border:2px solid black;
+    
+
+}
+.upleft input:hover{
+    border: 2px solid red;
+}
+.upleft button{
+    height: 4vh;
+    padding: 5px 10px;
+    border-radius:10px;
+    background-color: red;
+    border: 1px solid black;
+}
+.upleft button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.aboutme{
+    display: flex;
+    height: 70vh;
+    background-color: rgb(15, 12, 12);
+    font-size: 20px;
+}
+.aleft{
+    width: 30vw;
+    padding: 20px 60px;
+}
+
+.aleft img{
+    height: 65vh;
+    border-radius: 500px;
+}
+
+.aright{
+    color: #fff;
+    width: 70vw;
+    padding:60px;
+    text-align: center;
+}
+.aright h4{
+    color: red;
+    padding: 15px 0px;
+    padding-top: 25px;
+
+}
+.aright button{
+    padding: 5px 10px;
+    background-color: red;
+    border: red;
+    color: #000;
+    border-radius: 10px;
+}
+.aright button:hover{
+   
+    background-color: white;
+    color: #000;
+    
+}
+.workborder{
+    display: flex;
+    height: 15vh;
+    background-color:white ;
+    color:black;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-weight: 1000;
+}
+.workborder span{
+    font-size: 60px;
+    /* color: red; */
+}
+.container{
+    height: 65vh;
+    background-color: black;
+}
+
+.work{
+    padding: 70px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.worka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(31, 27, 27);
+    color:white;
+}
+.work img{
+    border-radius: 10px;
+}
+.worka h2{
+    padding: 10px 0px;
+    
+}
+.worka:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color:white;
+    color: #000;
+}
+
+.hire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 40px;
+    background-color:  rgb(15, 12, 12);
+    color: #fff;
+}
+
+.hire button{
+    font-size: 15px;
+    width: 80px;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: red;
+    margin-top: 20px;
+    color: white;
+}
+
+.hire button:hover{
+    background-color: #fff;
+    border:#000;
+    color: #000;
+    
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+footer p{
+    padding-top: 20px ;
+    text-align: center;
+    font-size: 20px;
+}
